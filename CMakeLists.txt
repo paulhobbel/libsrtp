@@ -34,6 +34,7 @@ check_include_file(sys/types.h HAVE_SYS_TYPES_H)
 check_include_file(unistd.h HAVE_UNISTD_H)
 check_include_file(windows.h HAVE_WINDOWS_H)
 check_include_file(winsock2.h HAVE_WINSOCK2_H)
+check_include_file(lwip/def.h HAVE_LWIP_DEF_H)
 
 check_function_exists(sigaction HAVE_SIGACTION)
 check_function_exists(inet_aton HAVE_INET_ATON)
